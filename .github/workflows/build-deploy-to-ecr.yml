@@ -1,8 +1,10 @@
 name: Deploy to ECR
 
 on:
-  pull_request:
-    branches: [ main ]
+    pull_request:
+      branches: [ main ]
+      
+    workflow_dispatch:
 
 jobs:
   
