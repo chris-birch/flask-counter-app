@@ -7,6 +7,6 @@ def lambda_handler(event, context):
             "Content-Type": "application/json"
         },
         "body": json.dumps({
-            "Message": "Flask Counter App, without using Flask..."
+            "Message": "Updating this message again, let's see if it appears in the Lambda"
         })
     }
